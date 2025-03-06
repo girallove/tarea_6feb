@@ -2,12 +2,25 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #ffdde1; 
+    background-color: #ffdde1; /* Rosa pastel */
     text-align: center;
+    padding-bottom: 40px; /* Espacio en la parte inferior de la página */
+}
+
+.banner {
+    background-image: url('https://img3.wallspic.com/crops/0/2/2/7/4/147220/147220-de_cerca-primavera-flores_de_color_rosa-petalo-la_botanica-3840x2160.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajusta la altura del banner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h1, h2 {
-    color: #2c3e50;
+    color: #610955;
     font-weight: bold;
 }
 
@@ -31,16 +44,22 @@ img {
     margin: 20px auto;
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 70%; 
-    height: auto;
+    max-width: 70%; /* Hace que las imágenes sean más grandes pero no ocupen toda la pantalla */
+    height: 300px;
+    width: 400px;
 }
 
 .container {
     max-width: 700px;
     background: white;
+    background: linear-gradient(to right, #f5c7c8, #e8b9f1);
     padding: 30px;
     margin: 20px auto;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
-
+.flor-favorita {
+    margin-top: 80px; /* Espacio grande antes de la sección de flores favoritas */
+    background: linear-gradient(to right, #efb3f5, #fed6e3); /* Degradado diferente para esta sección */
+    border-radius: 15px;
+}
